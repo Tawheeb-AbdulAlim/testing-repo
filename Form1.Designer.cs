@@ -67,11 +67,13 @@
             // label4
             // 
             this.label4.AutoSize = true;
+
             this.label4.Location = new System.Drawing.Point(132, 168);
-            this.label4.Name = "label4";
+            this.label4.Name = "label4 resolve convilect";
             this.label4.Size = new System.Drawing.Size(42, 17);
             this.label4.TabIndex = 3;
-            this.label4.Text = "label4";
+            this.label4.Text = "label4 resolve confict";
+
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
@@ -82,6 +84,7 @@
             this.label5.Size = new System.Drawing.Size(42, 17);
             this.label5.TabIndex = 4;
             this.label5.Text = "label7";
+
             // 
             // Form1
             // 
