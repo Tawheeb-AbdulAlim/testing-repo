@@ -46,11 +46,21 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(321, 134);
+            this.label2.Location = new System.Drawing.Point(321, 214);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(106, 17);
+            this.label2.Size = new System.Drawing.Size(130, 17);
             this.label2.TabIndex = 1;
-            this.label2.Text = "clone successed";
+            this.label2.Text = "base projet modfied";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(366, 312);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(42, 17);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "label3";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label3
             // 
@@ -71,6 +81,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "s";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
