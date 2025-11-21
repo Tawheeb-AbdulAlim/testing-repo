@@ -66,11 +66,19 @@
             // label4
             // 
             this.label4.AutoSize = true;
+<<<<<<< HEAD
             this.label4.Location = new System.Drawing.Point(97, 242);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(42, 17);
             this.label4.TabIndex = 3;
             this.label4.Text = "label5";
+=======
+            this.label4.Location = new System.Drawing.Point(132, 168);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(42, 17);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "label4";
+>>>>>>> 223464713e6e29ba65c9f10199b0d28060e1cbb6
             // 
             // Form1
             // 
